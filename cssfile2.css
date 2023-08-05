@@ -1,0 +1,145 @@
+body, h1, p, ul, li, table, th, td, form, input, textarea {
+ margin: 0;
+ padding: 0;
+}
+
+/* Styling body */
+body {
+ font-family: Arial, sans-serif;
+ background-color: #d7e5eb;
+ color: #5f6580;
+}
+
+/* Styling headings */
+h1, h2, h3 {
+ color: rgb(103, 110, 209);
+}
+
+/* Styling links */
+a {
+ color: #338492;
+ text-decoration: none;
+}
+
+/* Styling photos */
+img {
+ max-width: 100%;
+}
+
+/* Styling texts */
+p {
+ font-size: 20px;
+ line-height: 1.5;
+}
+
+/* Styling lists */
+ul {
+ list-style: disc;
+}
+
+
+
+/* Forms */
+input[type="text"], textarea, select {
+ width: 20%;
+ padding: 10px;
+ border: 1px solid #6eb0c0;
+ border-radius: 5px;
+}
+
+input[type="submit"] {
+ padding: 10px 20px;
+ background-color: #007bff;
+ color: #fff;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+}
+
+
+#main-content {
+ margin: 20px;
+}
+
+
+#footer {
+ background-color: #5b528d;
+ color: #fff;
+ padding: 20px;
+ text-align: center;
+}
+
+/* Classes */
+.featured-photo {
+ border: 5px solid #87abd1;
+ border-radius: 5px;
+}
+
+.highlight {
+ color: #d139ca;
+ font-weight: bold;
+}
+
+
+/* Images border */
+img {
+    border: 2px solid #2cb3bd;
+   }
+   
+/*  Images shadow */
+img {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+   }
+   
+/* Table */
+table {
+    width: 50%;
+    border-collapse: collapse;
+  }
+  
+  td, th {
+    text-align: center;
+    padding: 20px;
+    border: 1.5px solid #2f8d99;
+  }
+  
+/* List */
+  ol {
+    list-style-type: decimal;
+  }
+  
+  ol li {
+    text-shadow: 5px 5px 5px rgba(76, 134, 134, 0.5);
+    font-weight: bold;
+    color: #248083;
+  }
+
+
+/ List table color change
+table {
+  border-collapse: collapse;
+}
+
+table tr:hover {
+  background-color: #9cf8ff;
+}
+
+
+  
+/* Floating images */
+img {
+    float: right;
+    margin-right: 375px;
+   }
+   
+body {
+    text-align: left;
+    margin-left: 40px;
+}
+   
+   
+footer {
+    color: #395bb8
+}
+
+
